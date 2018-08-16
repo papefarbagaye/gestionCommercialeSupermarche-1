@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="caissier.AccueilController">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Nouveau Client" />
+                <Menu mnemonicParsing="false" text="Détails Article" />
+                <Menu mnemonicParsing="false" text="Déconnexion" />
+              </menus>
+            </MenuBar>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="800.0" arcWidth="50.0" fill="LEMONCHIFFON" height="393.0" layoutX="49.0" layoutY="42.0" opacity="0.74" stroke="cyan" strokeType="INSIDE" width="855.0" />
+                  <Label layoutX="217.0" layoutY="63.0" text="Menu Responsable Commercial">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="307.0" layoutY="117.0" prefHeight="0.0" prefWidth="323.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="133.0" layoutX="141.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+                  <Label layoutX="166.0" layoutY="217.0" text="Gestion Produit">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="133.0" layoutX="367.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+                  <Label layoutX="381.0" layoutY="217.0" text="Gestion Catégorie">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="133.0" layoutX="590.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+                  <Label layoutX="637.0" layoutY="217.0" text="Statistique">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+             </AnchorPane>
+         </center>          
+      </BorderPane>
+   </children>
+</AnchorPane>
